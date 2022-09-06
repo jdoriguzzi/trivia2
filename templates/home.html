@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div>
+
+    <h2>Welcome {{ g.user.username }}! Your Score: {{ g.user.score }} </h2>
+     
+    <a href="/question" class="btn btn-primary">Let's Play!</a>
+
+    
+
+  </div>
+{% endblock %}
